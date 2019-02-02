@@ -14,7 +14,6 @@ class Index extends React.Component{
         <Banner/>
         <Section/>
         <ProductList search=""/>
-        {console.log("api: "+ process.env.API_URL)}
         <Promotion/>
       </Layout>
     )
